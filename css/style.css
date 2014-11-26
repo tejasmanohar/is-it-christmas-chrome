@@ -1,5 +1,6 @@
 html, body {
-  height: 100%;
+  height: 99%;
+  overflow:hidden;
 }
 .container iframe {
   position: absolute;
@@ -7,4 +8,7 @@ html, body {
   left: 0;
   width: 100%;
   height: 100%;
+}
+::-webkit-scrollbar { 
+    display: none; 
 }
